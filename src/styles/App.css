@@ -1,15 +1,17 @@
 .App {
   background-color: #c3cee2;
   display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-.App-header {
+
+.App-content {
+  border-radius: 4px;
+  outline: 2px solid cyan;
+  position: relative;
+  width: 80%;
   text-align: center;
-  background-color: #a4aec2;
-  font-size: calc(10px + 2vmin);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: black;
-  border-radius: 2px;
+  background-color: #b3b3b3;
+  padding: 2%;
 }

@@ -5,10 +5,7 @@ import "./styles/App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h3>React Drums Machine</h3>
-      </header>
-      <div className="Content">
+      <div className="App-content">
         <Drums />
         <Text />
       </div>
