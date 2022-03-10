@@ -1,13 +1,11 @@
 import Drums from "./components/Drums";
-import Text from "./components/Text";
 import "./styles/App.css";
 
 function App() {
   return (
     <div className="App">
-      <div className="App-content">
+      <div className="App-content" id="drum-machine">
         <Drums />
-        <Text />
       </div>
     </div>
   );
